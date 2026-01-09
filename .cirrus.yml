@@ -1,0 +1,6 @@
+task:
+  container:
+    image: ubuntu:22.04
+  script:
+    - echo "Cirrus sandbox activo"
+    - sleep 600
