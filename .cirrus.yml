@@ -1,6 +1,6 @@
 task:
-  container:
-    image: ubuntu:22.04
+  name: test
   script:
-    - echo "Cirrus sandbox activo"
-    - sleep 600
+    - echo "CIRRUS FUNCIONA"
+    - uname -a
+    - sleep 300
